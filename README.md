@@ -17,7 +17,7 @@ Install dependencies
 ```bash
   npm install
 
-  or 
+  or
 
   npm install react-material-ui-carousel --save --legacy-peer-deps
 ```
@@ -33,3 +33,7 @@ The server should now be running. You can access the application by opening a we
 ```bash
   http://localhost:3000
 ```
+
+### My Changes:
+
+I have created a product component to make sure easy to update and maintain. Also, I added style file to extend and overwrite some of the bootstrap styling. This approach simplifies responsiveness and allows for easy rearrangement of elements at different breakpoints. I ensured consistent spacing and alignment by using grid-gap and relative units.
