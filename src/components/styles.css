@@ -1,0 +1,47 @@
+.shallow-box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.75rem;
+  margin: 1rem;
+  border: none;
+}
+.card-text {
+  color: #b1b1b3;
+}
+.lead {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.btn-card {
+  background-color: #4a9f9b;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.3rem 1rem;
+  width: 75%;
+  border-radius: 50px;
+}
+.btn-card:hover {
+  background-color: #67c9c4;
+  color: #fff;
+}
+
+.color-wrap ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+.color-wrap ul li {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.color-wrap ul li.active {
+  width: 20px;
+  height: 20px;
+}
